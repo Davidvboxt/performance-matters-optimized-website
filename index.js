@@ -22,7 +22,7 @@ app.get('/', (request, response) => {
   console.log(vestigingUrl);
 
     fetchJson(vestigingUrl).then((data) => {
-      console.log(data);
+      
         response.render('index', {vestigingen: data.vestigingen})
     })
    
