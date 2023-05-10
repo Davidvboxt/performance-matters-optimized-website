@@ -308,65 +308,62 @@ footer{
     flex-direction: column;
 }
 
-/* .detail-plek{
-   text-align: right;
-   margin-right: 20%;
-}
-
-.detail-sub{
-    margin-left: 25%;
-}
-
-.detail-button{
-    margin-left: 300px;
-} */
-
-
-
-/* LOL */
-
-.detail-section{
+   .detail-section{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    max-width: 550px;
+    margin: auto;
   }
 
-.detail-sub {
-    justify-content: space-between;
-    align-items: center;
+  .detail-h1 {
+    background-color: #b40000;
+    color: white;
+    padding: 20px;
+    margin-top: 20;
   }
-  
-  .detail-label {
-    flex: 1 0 100%;
-    margin-bottom: 10px;
+  form {
+    padding: 0px;
   }
-  
-  .detail-input {
-    flex: 1 0 100%;
-    margin-bottom: 20px;
+  label {
+    display: block;
+    margin-block: 1rem;
+    margin-inline:1rem;
+    font-weight: bold;
+    
+  }
+  /* input[type="text"],
+  input[type="date"],
+  input[type="time"] {
     padding: 10px;
-    box-sizing: border-box;
-  }
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+  } */
+
   
-  @media screen and (min-width: 600px) {
-    .detail-label {
-      flex: 1 0 30%;
-      margin-bottom: 0;
-      padding-right: 20px;
-    }
-    
-    .detail-input {
-      flex: 1 0 70%;
-      margin-bottom: 0;
-    }
-    
-    .detail-button {
-      flex: 1 0 100%;
-    }
-    
-    .detail-plek {
-      flex: 1 0 100%;
-    }
+  .textlabel,
+  .datelabel{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
   }
-  
+
+  .btn-submit {
+    background-color: #f40000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .btn-submit:hover {
+    background-color: #000000;
+  }
+  a.btn-submit{
+    text-decoration: none;
+  }
