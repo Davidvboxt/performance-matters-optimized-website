@@ -64,7 +64,7 @@ app.post('/success', (request, response) => {
 
     //In de data zit een data.id Hiermee check ik of er een ID aanwezig is voor een studieplek dat nog niet geresereerd is.
     if (data.data.id) {
-      response.redirect('/success') 
+      response.redirect('success') 
     } else {
       //Als het boek al gereserveerd is dan heeft data.data.id geen id meer en krijg je dus een error message.
       console.log("errorrrs")

@@ -12,15 +12,18 @@
 <section class="detail-section">
     <h1 class="detail-h1">Reserveer uw studieplek</h1>
     <form method="POST" action="/success">
-      <label for="name">Uw naam</label>
+      
       <input type="hidden" name="vestigingId" value="<%= id %>">
+
+      <label for="name">Uw naam</label>
       <input class="textlabel" type="text" id="name" name="name" required />
+
       <label for="seatNumber">Hoeveel plekken wilt u reserveren?</label>
       <input type="number" id="seatNumber" name="seatNumber" required />
+      
       <label for="begintijd">Op welke dag wilt u reserveren?</label>
       <input class="datelabel" type="datetime-local" id="begintijd" name="beginTijd" required />
-      <!-- <label for="time">Tijd</label>
-      <input class="timelabel" type="time" id="time" name="time" required /> -->
+
       <button class="btn-submit" type="submit">Reserveer uw studieplek</button>
     </form>
   </section>
