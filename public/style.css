@@ -308,7 +308,7 @@ footer{
     flex-direction: column;
 }
 
-   .detail-section{
+.detail-section{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -316,7 +316,7 @@ footer{
     margin: auto;
   }
 
-  .detail-h1 {
+.detail-h1 {
     background-color: #b40000;
     color: white;
     padding: 20px;
@@ -332,15 +332,6 @@ footer{
     font-weight: bold;
     
   }
-  /* input[type="text"],
-  input[type="date"],
-  input[type="time"] {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-    margin-bottom: 20px;
-  } */
 
   
   .textlabel,

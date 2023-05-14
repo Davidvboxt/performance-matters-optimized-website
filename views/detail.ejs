@@ -4,7 +4,7 @@
     <h1><%= naam %></h1>
     <p><%= adres %></p>
     <div>
-        <img class="detail-image" src="<%= foto.originalAsWebP %>" alt="Roelof image">
+        <img class="detail-image" src="<%= foto.originalAsWebP %>" alt=" OBA Roelof image">
     </div>
     
 </section>
@@ -15,12 +15,12 @@
       
       <input type="hidden" name="vestigingId" value="<%= id %>">
 
-      <label for="name">Uw naam</label>
+      <label for="name">Naam</label>
       <input class="textlabel" type="text" id="name" name="name" required />
 
       <label for="seatNumber">Hoeveel plekken wilt u reserveren?</label>
       <input type="number" id="seatNumber" name="seatNumber" required />
-      
+
       <label for="begintijd">Op welke dag wilt u reserveren?</label>
       <input class="datelabel" type="datetime-local" id="begintijd" name="beginTijd" required />
 
