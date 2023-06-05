@@ -33,7 +33,7 @@
 
 `const hoi = 'hallo';`
 
-```ejs
+```js
 const hoi = 'hallo';
 ```
 
