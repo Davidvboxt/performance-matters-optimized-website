@@ -30,4 +30,11 @@
 
 ## Licentie
 
+
+`const hoi = 'hallo';`
+
+```ejs
+const hoi = 'hallo';
+```
+
 This project is licensed under the terms of the [MIT license](./LICENSE).
